@@ -1,0 +1,94 @@
+html,body,.wrapper {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #0B0C10;
+}
+
+.wrapper {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+  text-align: center;
+  font-size: larger;
+  padding: 2rem;
+  padding-top: 0px;
+  color: #66FCF1;
+}
+
+.card {
+  background-color: #1F2833;
+  border-radius: 1rem;
+  border-width: 1px;
+  box-shadow: #C5C6C7 0px 0px 1.5rem 1px;
+  color: white;
+  font-size: large;
+  margin: 0 auto;
+  max-width: 50em;
+  padding: 30px 40px;
+}
+
+.card-header::after {
+  /* content: " ";
+  display: block; */
+  width: 100%;
+  background: white;
+  height: 2px;
+}
+
+.card-body {
+  min-height: 100px;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+.card-footer::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.btn {
+  border-color: #C5C6C7;
+  background-color: #45A29E;
+  border-radius: 1rem;
+  border-width: 2px;
+  color: white;
+  font-size: large;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+button[disabled] {
+  cursor: default;
+  background: #C5C6C7;
+}
+
+#password {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-color: #C5C6C7;
+  display: block;
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: scroll;
+}
