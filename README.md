@@ -1,4 +1,4 @@
-# 3.Password_Generator
+# Password_Generator
  A tool to create a randomized password
  
 ![Screenshot](/screenshot.png)
